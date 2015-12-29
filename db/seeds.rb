@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+   
+50.times do
+    Book.create(name: Faker::App.name,author: Faker::App.author , isbn: Faker::Code.isbn ) 
+
+end
