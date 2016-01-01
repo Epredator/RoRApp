@@ -1,5 +1,15 @@
 source 'https://rubygems.org'
 
+# Add commonly used gems
+gem 'pg'
+gem 'omniauth'
+gem 'omniauth-google-apps'
+gem 'unicorn'
+gem 'foreman'
+gem 'newrelic_rpm'
+gem 'airbrake'
+gem 'brakeman'
+gem 'cancan'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
